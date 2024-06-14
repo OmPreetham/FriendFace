@@ -2,11 +2,11 @@
 
 ## Overview
 
-Welcome to FriendFace SwiftData! This project is part of the 100 Days of SwiftUI series, where we will build a social media application using SwiftUI and SwiftData. By the end of this course, you will have a deep understanding of SwiftUI, SwiftData, and how to integrate them to create a functional and attractive app.
+Welcome to FriendFace SwiftData! This project is part of the 100 Days of SwiftUI series.
 
 ## Introduction
 
-FriendFace is a simple social media application that allows users to create profiles, add friends, and share posts. This project will help you learn the fundamentals of SwiftUI and SwiftData, two powerful tools for iOS development.
+FriendFace is a simple JSON fetching app. This project will help you learn the fundamentals of SwiftUI and SwiftData, two powerful tools for iOS development.
 
 ## Setup and Installation
 
