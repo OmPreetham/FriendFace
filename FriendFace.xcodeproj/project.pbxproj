@@ -13,6 +13,7 @@
 		0EA438E02C1B887A001E97E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA438DF2C1B887A001E97E6 /* Preview Assets.xcassets */; };
 		0EA438E72C1B8DF1001E97E6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA438E62C1B8DF0001E97E6 /* User.swift */; };
 		0EA438E92C1B9770001E97E6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA438E82C1B9770001E97E6 /* DetailView.swift */; };
+		0EEF78572C1CD36D00782E91 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF78562C1CD36D00782E91 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0EA438DF2C1B887A001E97E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EA438E62C1B8DF0001E97E6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0EA438E82C1B9770001E97E6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0EEF78562C1CD36D00782E91 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0EA438DA2C1B8879001E97E6 /* ContentView.swift */,
 				0EA438E82C1B9770001E97E6 /* DetailView.swift */,
 				0EA438E62C1B8DF0001E97E6 /* User.swift */,
+				0EEF78562C1CD36D00782E91 /* Friend.swift */,
 				0EA438DC2C1B887A001E97E6 /* Assets.xcassets */,
 				0EA438DE2C1B887A001E97E6 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				0EA438DB2C1B8879001E97E6 /* ContentView.swift in Sources */,
 				0EA438E92C1B9770001E97E6 /* DetailView.swift in Sources */,
+				0EEF78572C1CD36D00782E91 /* Friend.swift in Sources */,
 				0EA438D92C1B8879001E97E6 /* FriendFaceApp.swift in Sources */,
 				0EA438E72C1B8DF1001E97E6 /* User.swift in Sources */,
 			);

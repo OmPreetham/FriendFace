@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct DetailView: View {
     let user: User
@@ -42,21 +43,29 @@ struct DetailView: View {
     }
 }
 
-#Preview {
-    DetailView(user:  User(
-        id: UUID(),
-        isActive: false,
-        name: "Alford Rodriguez",
-        age: 21,
-        company: "Imkan",
-        email: "alfordrodriguez@imkan.com",
-        address: "907 Nelson Street, Cotopaxi, South Dakota, 5913",
-        about: "Occaecat consequat elit aliquip magna laboris dolore laboris sunt officia adipisicing reprehenderit sunt.",
-        registered: Date(),
-        tags: ["cillum", "consequat", "deserunt"],
-        friends: [
-            Friend(id: UUID(), name: "Hawkins Patel"),
-            Friend(id: UUID(), name: "Jewel Sexton")
-        ]
-    ))
-}
+//#Preview {
+//    do {
+//        let config = ModelConfiguration(isStoredInMemoryOnly: true)
+//        let container = try ModelContainer(for: User.self, configurations: config)
+//        let user = User(
+//            id: "24232",
+//            isActive: false,
+//            name: "Alford Rodriguez",
+//            age: 21,
+//            company: "Imkan",
+//            email: "alfordrodriguez@imkan.com",
+//            address: "907 Nelson Street, Cotopaxi, South Dakota, 5913",
+//            about: "Occaecat consequat elit aliquip magna laboris dolore laboris sunt officia adipisicing reprehenderit sunt.",
+//            registered: Date(),
+//            tags: ["cillum", "consequat", "deserunt"],
+//            friends: [
+//                Friend(id: "32r23", name: "Hawkins Patel"),
+//                Friend(id: "22323", name: "Jewel Sexton")
+//            ]
+//        )
+//        return DetailView(user: user)
+//            .modelContainer(container)
+//    } catch {
+//        return Text("Failed to create container: \(error.localizedDescription)")
+//    }
+//}
